@@ -1,0 +1,13 @@
+-> Nome do bd: lista
+-> Usuario: root
+-> Senha:
+-> Nome da tabela: usuario
+
+###Código de criação da tabela:###
+
+create table usuario(
+email varchar(60) not null,
+nome varchar(60),
+senha varchar(60),
+constraint pk_usu primary key (email)
+);
